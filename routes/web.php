@@ -1,11 +1,13 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
-use App\Http\Controllers\AdminController;
+use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\HomeController;
 
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\OppurtunityController;
 use App\Http\Controllers\Auth\AdminLoginController;
 
 //use App\Http\Controllers\OppurtunityController;
